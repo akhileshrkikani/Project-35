@@ -43,13 +43,13 @@ function draw() {
   else if(keyDown(UP_ARROW)){
     updateHeight(0,-20)
     balloon.addAnimation("hotAirBalloon",balloonImage2);
-    balloon.scale=balloon.scale -0.0030
+    balloon.scale=balloon.scale -0.01
     
   }
   else if(keyDown(DOWN_ARROW)){
     updateHeight(0,20)
     balloon.addAnimation("hotAirBalloon",balloonImage2);
-    balloon.scale=balloon.scale +0.0030
+    balloon.scale=balloon.scale +0.01
   }
 
   drawSprites();
